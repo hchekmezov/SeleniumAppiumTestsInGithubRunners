@@ -22,8 +22,8 @@ jobs:
           appium -v
           appium &>/dev/null &
 
-      - name: check udids of emulator
-        run: xcrun simctl list
+#      - name: check udids of emulator
+#        run: xcrun simctl list
 
-#      - name: run appium ios tests
-#        run: mvn clean test -Pios
+      - name: run appium ios tests
+        run: mvn clean test -Pios
