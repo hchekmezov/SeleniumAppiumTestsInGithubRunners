@@ -20,7 +20,7 @@ public class IosTest {
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
         capabilities.setCapability("isHeadless",true);
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "IPhone 14 Plus");
-        capabilities.setCapability(MobileCapabilityType.UDID, "144E27C5-9FC0-42AE-A348-442E902C5AFC");
+        capabilities.setCapability(MobileCapabilityType.UDID, "682968C3-1384-46DF-BCEC-C99DF8424B7B");
         //capabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir")+"/DailyCheck.zip");
         capabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir")+"/TestApp-iphonesimulator.app");
         AndroidDriver<AndroidElement> driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"),
