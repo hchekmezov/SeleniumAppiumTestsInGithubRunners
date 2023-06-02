@@ -26,4 +26,4 @@ jobs:
         run: xcrun simctl list
 
       - name: run appium ios tests
-        run: mvn clean test -Pios
+        run: open -a Simulator --args -CurrentDeviceUDID 682968C3-1384-46DF-BCEC-C99DF8424B7B && mvn clean test -Pios
