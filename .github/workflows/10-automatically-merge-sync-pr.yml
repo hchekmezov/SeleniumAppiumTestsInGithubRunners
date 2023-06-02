@@ -1,7 +1,5 @@
 name: automatically merge sync PR's
-on:
-  pull_request:
-    branches: [ development ]
+on: workflow_dispatch
 
 jobs:
   approve-merge-sync-prs:

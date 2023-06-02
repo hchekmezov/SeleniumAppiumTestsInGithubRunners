@@ -1,9 +1,5 @@
 name: concurrency check
-on: 
-  workflow_dispatch:
-  push: 
-    branches: 
-      - on-demand-release-web-*
+on: workflow_dispatch
   
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref_name }}

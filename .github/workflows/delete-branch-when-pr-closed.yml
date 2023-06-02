@@ -1,8 +1,6 @@
 name: delete the branch when PR is closed
 
-on: 
-  pull_request:
-   types: [ closed ] 
+on: workflow_dispatch
 
 jobs:
   delete-branch-when-pr-closed:

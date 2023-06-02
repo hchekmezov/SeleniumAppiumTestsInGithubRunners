@@ -12,8 +12,8 @@ on:
           - 'development'
           - 'prod-shadow'
         default: 'staging'
-  repository_dispatch:
-    types: [ my-event ]
+
+
 jobs:
   web-tests:
     runs-on: ubuntu-latest
